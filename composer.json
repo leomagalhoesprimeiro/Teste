@@ -1,0 +1,23 @@
+{
+    "name": "maxwell/sapo-master",
+    "description": "Criando teste com phpunit",
+    "authors": [
+        {
+            "name": "cid",
+            "email": "cid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "phpunit/dbunit": "^4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/",
+            "teste/"
+        ]
+    }
+}
